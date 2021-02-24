@@ -1,0 +1,142 @@
+#title {
+  background-color: #ff4c68;
+  font-family: 'Montserrat';
+  height: auto;
+}
+
+.container-fluid {
+  padding: 3% 15% 100px;
+}
+
+.heading {
+  font-size: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  line-height: 1.5;
+  color: white;
+}
+.downloadbutton {
+  margin: 5% 3% 5% 0;
+}
+h2{
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height:1.5;
+}
+h3 {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+}
+.navbar {
+  padding-bottom: 20px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', light;
+}
+.row {
+  padding-top: 60px;
+}
+.dog {
+  width: 250px;
+  transform: rotate(25deg);
+   position: absolute;
+   margin-bottom: 40px;
+   right: 20%;
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
+}
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  position: relative;
+  color: white;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* pricing section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+  background-color: #fff;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+.last-segment{
+  font-family: 'Montserrat';
+  color: white;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 40px;
+  padding-top: 40px;
+}
+#footer{
+  text-align: center;
+  background-color: #fff;
+}
+.social-media{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+}
+@media (max-width: 1028px) {
+
+#title{
+  text-align: center;
+}
+  .dog{
+    position: static;
+    transform: rotate(0);
+  }
+}
